@@ -1,0 +1,18 @@
+Make a file on your laptop named index.html
+
+Open AWS → Go to S3
+
+Click Create Bucket
+
+Give bucket name → Turn OFF Block public access → Create
+
+Open your bucket → Click Upload → Upload index.html
+
+Go to Properties → Find Static website hosting → Turn ON
+
+Type index.html in Index document → Save
+
+Go to Permissions → Open Bucket Policy
+
+Paste this (change BUCKET_NAME to your bucket name):
+
